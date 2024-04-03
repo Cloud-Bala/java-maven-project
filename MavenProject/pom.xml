@@ -7,6 +7,14 @@
   <version>1.0-SNAPSHOT</version>
   <name>maven-project</name>
   <url>http://maven.apache.org</url>
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub Cloud-Bala Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/Cloud-Bala/java-maven-project/MavenProject</url>
+   </repository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
         <groupId>junit</groupId>
