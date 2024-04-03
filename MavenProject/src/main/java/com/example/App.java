@@ -1,4 +1,4 @@
-package Notify-Function;
+package com.example;
 
 /**
  * Hello world!
